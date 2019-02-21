@@ -75,3 +75,28 @@ p.number {
 .row {display:flex; justify-content: left; align-items: center}
 .row img{margin-left: 1rem;}
 .octo {margin: 1rem;}
+
+footer {
+  border-top: 1px solid #ddd;
+  width: 100%;
+  padding: 15px 0 20px;
+  font: helvetica;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  }
+  footer ul {
+    font-size: 12px;
+  }
+  
+  footer a {
+    color: #4183C4;
+    outline: 0;
+    text-decoration: none;
+  
+  }
+  footer a:hover {text-decoration: underline;}
+  
+  footer p {
+    font-size: 12px;
+  }
